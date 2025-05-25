@@ -7,6 +7,9 @@
     <link rel="shortcut icon" href="public/favicon.jpg" type="image/x-icon">
 </head>
 <body>
-    
+    WELCOME TO MAIL-ME APP
+    <br>
+    <a href="login.php">Login</a> |
+    <a href="register.php">Register</a>
 </body>
 </html>

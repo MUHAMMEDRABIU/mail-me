@@ -1,9 +1,13 @@
-## DIRECTORY STRUCTURE
-mail-me/
-│
-├── index.html         → Contact form frontend
-├── send.php           → PHP script to handle the mail
-└── style.css          → styling
+/Mail-me
+├── .env
+├── composer.json
+├── config/
+│   └── database.php
+├── login.php
+├── register.php
+├── send.php        ← ✉️ Mail logic
+├── dashboard.php
+└── vendor/         ← Composer libraries
 
 
 ## GROUP MEMBERS
