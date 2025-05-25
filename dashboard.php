@@ -67,7 +67,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head>
   <title>Send Mail - Mail-me</title>
-</head>
+<<<<<<< HEAD
+  <link rel="stylesheet" href="assets/css/style.css">
+=======
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css">
+>>>>>>> bd1d40ca6b8eda91b2c77a710bd06c384c901c3e
 <body>
   <h2>Send Mail as <span style="color: green;"><?= htmlentities($user['email']) ?></span></h2>
 
@@ -89,3 +94,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <a href="logout.php">Back to Home</a>
 </body>
 </html>
+
+<!-- footer require -->
+<?php require __DIR__ . '/components/footer.php'; ?>
